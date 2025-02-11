@@ -1,4 +1,4 @@
-#!/usr/bin/env node --experimental-strip-types --no-warnings
+#!/usr/bin/env node
 
 import { uuidv4obj } from 'uuidv7';
 import { Uuid25 } from 'uuid25';
