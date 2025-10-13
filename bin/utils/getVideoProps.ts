@@ -1,4 +1,4 @@
-import Ffmpeg, { FfprobeData } from 'fluent-ffmpeg';
+import Ffmpeg, { type FfprobeData } from 'fluent-ffmpeg';
 import { promisify } from 'util';
 
 export default async function getVideoTrackProps(videoFile: string) {
